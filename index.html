@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neat Features Showcase</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <div class="dropdown">
+    <button onclick="toggleDropdown()" class="dropbtn">Dropdown</button>
+    <div id="myDropdown" class="dropdown-content">
+      <a href="#home" onclick="showInfo('Home')">Home</a>
+      <a href="#about" onclick="showInfo('About')">About</a>
+      <a href="#contact" onclick="showInfo('Contact')">Contact</a>
+    </div>
+  </div>
+
+  <div id="infoDisplay"></div>
+
+  <script src="scripts.js"></script>
+</body>
+
+</html>
